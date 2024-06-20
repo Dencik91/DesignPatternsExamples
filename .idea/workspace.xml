@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/Attribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/PhysicalDimension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" afterDir="false" />
+    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="add attribute">
+      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/Attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/PhysicalDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/PhysicalDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718867316801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add attribute">
+      <option name="closed" value="true" />
+      <created>1718877548816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718877548816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Facut" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="add attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="add attribute" />
   </component>
 </project>
