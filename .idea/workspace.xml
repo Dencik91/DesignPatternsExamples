@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="add attribute">
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/Main.java" afterDir="false" />
+    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="hw builder2 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/Attribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/PhysicalDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/PhysicalDimension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.Domashka [clean].executor": "Run",
-    "Maven.Domashka [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TestCalculateMedium.executor": "Run",
-    "git-widget-placeholder": "Builder",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Domashka [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Domashka [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestCalculateMedium.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Builder&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718877548816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw builder2 done">
+      <option name="closed" value="true" />
+      <created>1718902278802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718902278803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +111,7 @@
     <MESSAGE value="Facut" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="add attribute" />
+    <MESSAGE value="hw builder2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw builder2 done" />
   </component>
 </project>

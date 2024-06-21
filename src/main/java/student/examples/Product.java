@@ -47,17 +47,29 @@ public class Product {
             product.setName(name);
             product.setPrice(price);
             // flexible part
-            product.setAttributes(new Attribute[4]);
             if (width != null) {
-                product.getAttributes()[0] = new Attribute("width", width);
-            } if (height != null) {
-                product.getAttributes()[1] = new Attribute("height", height);
-            } if (length != null) {
-                product.getAttributes()[2] = new Attribute("length", length);
-            } if (weight != null) {
-                product.getAttributes()[3] = new Attribute("weight", weight);
+                addAttribute(product, new Attribute("width", width));
+            }
+            if (height != null) {
+                addAttribute(product, new Attribute("height", height));
+            }
+            if (length != null) {
+                addAttribute(product, new Attribute("length", length));
+            }
+            if (weight != null) {
+                addAttribute(product, new Attribute("weight", weight));
             }
             return product;
+        }
+
+        private void addAttribute(Product product, Attribute attribute) {
+            if(product.getAttributes() == null) {
+                product.setAttributes(new Attribute[1]);
+            } else {
+                product.setAttributes(Arrays.copyOf(
+                        product.getAttributes(), product.getAttributes().length +1));
+            }
+            product.getAttributes()[product.getAttributes().length-1] = attribute;
         }
     }
 
