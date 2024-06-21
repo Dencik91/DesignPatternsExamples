@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="hw builder2 done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/Product.java" afterDir="false" />
-    </list>
+    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="hw builder enhancement done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718902278803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw builder enhancement done">
+      <option name="closed" value="true" />
+      <created>1718965924830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718965924830</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hw builder enhancement done">
+      <option name="closed" value="true" />
+      <created>1718965957783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718965957784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +125,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="add attribute" />
     <MESSAGE value="hw builder2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw builder2 done" />
+    <MESSAGE value="hw builder enhancement done" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw builder enhancement done" />
   </component>
 </project>
