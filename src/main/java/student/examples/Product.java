@@ -39,7 +39,6 @@ public class Product {
 
             return this;
         }
-
         // final method
         public Product build() {
             Product product = new Product();
