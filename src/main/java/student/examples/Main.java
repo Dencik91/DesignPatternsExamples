@@ -4,7 +4,33 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        DataCollection dataCollection = DataCollection.getInstance();
+        dataCollection.add(10);
+        dataCollection.add(20);
+        dataCollection.add(30);
 
+        System.out.println(dataCollection.get(0));
+        System.out.println(dataCollection.get(1));
+        System.out.println(dataCollection.get(2));
+        System.out.println();
+
+        DataCollection dataCollection1 = DataCollection.getInstance();
+        dataCollection1.add(40);
+
+        System.out.println(dataCollection1.get(0));
+        System.out.println(dataCollection1.get(1));
+        System.out.println(dataCollection1.get(2));
+        System.out.println(dataCollection1.get(3));
+        System.out.println();
+
+        DataCollection dataCollection2 = DataCollection.getInstance();
+        dataCollection2.remove(3);
+
+        System.out.println(dataCollection2.get(0));
+        System.out.println(dataCollection2.get(1));
+        System.out.println(dataCollection2.get(2));
+//        System.out.println(dataCollection2.get(3));
+        System.out.println();
     }
 }
 
@@ -33,11 +59,10 @@ class DataCollection {
 
     public void remove (int index) {
         data[index] = null;
-        for (int i =0; i<data.length-1;i++) {
-            if (data[i] == null) {
-
-            }
+        for (int i =index; i<data.length-1;i++) {
+            data[i] = data[i+1];
         }
+        data = Arrays.copyOf(data, data.length-1);
     }
 
     public Object get(int index) {
