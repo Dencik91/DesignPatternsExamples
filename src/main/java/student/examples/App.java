@@ -25,6 +25,8 @@ public class App {
     }
 }
 
+// TODO optimize code on shop class, try to use Object as parameter
+
 // publisher
 class Shop {
     public Product[] products = new Product[5];
