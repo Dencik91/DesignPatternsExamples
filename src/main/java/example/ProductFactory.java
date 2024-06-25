@@ -5,17 +5,14 @@ public class ProductFactory {
 
     private static Product createBaseProduct(String type, String name, double price) {
         Product product = null;
-        if (type.equals("phone")) {
-            product = new Phone();
-        } else if (type.equals("printer")) {
-            product = new Printer();
-        } else if (type.equals("laptop")) {
-            product = new Laptop();
+        switch (type) {
+            case "phone" -> product = new Phone();
+            case "printer" -> product = new Printer();
+            case "laptop" -> product = new Laptop();
+            default -> throw new IllegalArgumentException("Invalid type of product: "+type);
         }
-        if (product != null) {
-            product.setName(name);
-            product.setPrice(price);
-        }
+        product.setName(name);
+        product.setPrice(price);
         return product;
     }
 
@@ -27,10 +24,10 @@ public class ProductFactory {
 
     public static Product createProduct(String type, String name, double price, String value) {
         Product product = createBaseProduct(type, name, price);
-        if (type.equals("printer")) {
-            ((Printer) product).setFormat(value);
-        } else if (type.equals("laptop")) {
-            ((Laptop) product).setCpu(value);
+        switch (type) {
+            case "printer" -> ((Printer) product).setFormat(value);
+            case "laptop" -> ((Laptop) product).setCpu(value);
+            default -> throw new IllegalArgumentException("Invalid type of product: "+type);
         }
         return product;
     }
