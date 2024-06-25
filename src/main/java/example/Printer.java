@@ -33,4 +33,13 @@ public class Printer implements Product{
     public void setFormat(String format) {
         this.format = format;
     }
+
+    @Override
+    public String toString() {
+        return "Printer{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", format='" + format + '\'' +
+                '}';
+    }
 }

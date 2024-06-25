@@ -33,4 +33,13 @@ public class Phone implements Product{
     public void setDiagonal(int diagonal) {
         this.diagonal = diagonal;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", diagonal=" + diagonal +
+                '}';
+    }
 }
