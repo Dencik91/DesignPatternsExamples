@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="Simple schema">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/student/examples/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/student/examples/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="Simple schema" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +47,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestCalculateMedium.executor": "Run",
     "git-widget-placeholder": "Observer",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/denisa/IdeaProjects/calculator-java-team"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
