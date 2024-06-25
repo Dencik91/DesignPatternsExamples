@@ -12,4 +12,6 @@ public class ShopApp {
         System.out.println(inkPrinter);
         System.out.println(smallLaptop);
     }
+
+    // TODO transform Interface in Abstract class, optimize code
 }
