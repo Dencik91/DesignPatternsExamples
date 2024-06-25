@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/student/examples/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/student/examples/TestCalculateMedium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/student/examples/TestListener.java" afterDir="false" />
+    <list default="true" id="3d2add47-8a41-432e-b0cd-ca9f08c11e0f" name="Changes" comment="add README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hzzAUPY8tIQeXAT0LAcdPBQ6jK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestCalculateMedium.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "factory",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -65,6 +55,19 @@
       <option name="presentableId" value="Default" />
       <updated>1718611553518</updated>
     </task>
+    <task id="LOCAL-00001" summary="add README.md">
+      <option name="closed" value="true" />
+      <created>1719308651687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719308651687</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
 </project>
