@@ -13,5 +13,5 @@ public class ShopApp {
         System.out.println(smallLaptop);
     }
 
-    // TODO transform Interface in Abstract class, optimize code
+    // TODO try to set constructor in default classto simplify the factory
 }
