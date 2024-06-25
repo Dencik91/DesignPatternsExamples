@@ -9,6 +9,8 @@ public class ProductFactory {
             product = new Phone();
         } else if (type.equals("printer")) {
             product = new Printer();
+        } else if (type.equals("laptop")) {
+            product = new Laptop();
         }
         if (product != null) {
             product.setName(name);
@@ -23,9 +25,13 @@ public class ProductFactory {
         return product;
     }
 
-    public static Product createProduct(String type, String name, double price, String format) {
+    public static Product createProduct(String type, String name, double price, String value) {
         Product product = createBaseProduct(type, name, price);
-        ((Printer)product).setFormat(format);
+        if (type.equals("printer")) {
+            ((Printer) product).setFormat(value);
+        } else if (type.equals("laptop")) {
+            ((Laptop) product).setCpu(value);
+        }
         return product;
     }
 }
