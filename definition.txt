@@ -1,0 +1,12 @@
+Singleton
+
+Motivation: guaranteed uniqueness and universal access
+
+Problem: Block/Control creation of the instances
+    Create one only instance
+    Provide access to that instance
+
+Solution:
+    Private constructor
+    Private static instance
+    Public static function of access
