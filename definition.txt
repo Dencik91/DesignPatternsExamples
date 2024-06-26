@@ -1,0 +1,8 @@
+Observer
+
+Motivation: Allow to notify multiple objects interested to know
+    about any changes (one-to-many dependency)
+
+Problem: Active checking vs Updates
+    Classes coupling
+
