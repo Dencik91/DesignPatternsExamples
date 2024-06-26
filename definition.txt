@@ -6,3 +6,15 @@ Problem: Supporting a big number of combinations of constructor parameters
 
 Solution: Move creation responsibility to another class
     Setters with result
+
+Pros:
+    Create complex object step-by-step
+    Use same code to created different combinations
+    Isolate creation logic from other business logic
+    Supports OOP concept of object being fully initialized
+        before accessing it
+
+Cons:
+    Code ae grows due to new classes
+    Appear dependencies to Builders
+    No compilation time checks of potential violations
