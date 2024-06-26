@@ -13,5 +13,6 @@ public class ShopApp {
         System.out.println(smallLaptop);
     }
 
-    // TODO try to set constructor in default classto simplify the factory
+    // try to set constructor in default class to simplify the factory
+    // it looks not so good with constructor in abstract class
 }
