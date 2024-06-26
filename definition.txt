@@ -6,3 +6,7 @@ Motivation: Allow to notify multiple objects interested to know
 Problem: Active checking vs Updates
     Classes coupling
 
+Solution:
+    Class Subject - on update, notifies every registered observer
+    Interface observer
+    Concrete Observer implements Observer
