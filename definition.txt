@@ -10,3 +10,20 @@ Solution:
     Private constructor
     Private static instance
     Public static function of access
+
+Ideal Singleton:
+
+private static volatile ThreadSafeSingleton instance;
+
+public static ThreadSafeSingleton getInstance() {
+    ThreadSafeSingleton result = instance;
+    if (result == null) {
+        synchronized (ThreadSafeSingleton.class) {
+            result = instance;
+            if (result == null) {
+                result = instance = new ThreadSafeSingleton();
+            }
+        }
+    }
+    return result;
+}
