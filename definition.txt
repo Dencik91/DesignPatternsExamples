@@ -1,0 +1,8 @@
+Builder
+
+Motivation: Delegate instance creation to another class
+
+Problem: Supporting a big number of combinations of constructor parameters
+
+Solution: Move creation responsibility to another class
+    Setters with result
