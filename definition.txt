@@ -18,3 +18,4 @@ Cons:
     Code ae grows due to new classes
     Appear dependencies to Builders
     No compilation time checks of potential violations
+    Work bad with big hierarchies of classes
