@@ -1,0 +1,13 @@
+Factory
+
+Motivation: Virtualize object creation
+    One place/function/class to create instances
+    Generic code
+    One of the decoupling patterns
+
+Problem: Constructors are not virtual
+    Switch instruction is not flexible
+
+Solution
+    Inheritance + generation functions
+    Limit solution to one only "switch"
